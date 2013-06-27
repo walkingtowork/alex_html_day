@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Famous Dogs</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>Famous Cartoon Dogs</h1>
+      <ul class="puppies">
+        <li class="beagle" id="snoopy">
+          Snoopy
+          <img src="images/snoopy.jpg" alt="Snoopy"/>
+        </li>
+        <li class="great_dane" id="scooby_doo">
+          Scooby Doo
+          <img src="images/scooby_doo.jpg" alt="Scooby Doo"/>
+        </li>
+        <li class="cairn_terrier" id="toto">
+          Toto
+          <img src="images/toto.jpg" alt="Toto"/>
+        </li>
+        <li class="lab" id="old_yeller">
+          Old Yeller
+          <img src="images/old_yeller.jpg" alt="Old Yeller"/>
+        </li>
+        <li class="cocker_spaniel" id="lady">
+          Lady
+          <img src="images/lady.jpg" alt="Lady"/>
+        </li>
+        <li class="chihuahua" id="ren">
+          Ren
+          <img src="images/ren.jpg" alt="Ren"/>
+        </li>
+        <li class="collie" id="lassie">
+          Lassie
+          <img src="images/lassie.jpg" alt="Lassie"/>
+        </li>
+        <li class="great_dane" id="marmaduke">
+          Marmaduke
+          <img src="images/marmaduke.jpg" alt="Marmaduke"/>
+        </li>
+        <li class="big_red_dog" id="clifford">
+          Clifford
+          <img src="images/clifford.jpg" alt="Clifford"/>
+        </li>
+      </ul>
+
+      <form id="new_puppy" action="/puppies" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="breed">Breed</label>
+        <select name="breed" id="breed">
+          <option value="">Choose a breed</option>
+          <option value="beagle">Beagle</option>
+          <option value="great_dane">Great Dane</option>
+          <option value="cairn_terrier">Cairn Terrier</option>
+          <option value="lab">Lab</option>
+          <option value="cocker_spaniel">Cocker Spaniel</option>
+          <option value="chihuahua">Chihuahua</option>
+          <option value="collie">Collie</option>
+          <option value="big_red_dog">Big Red Dog</option>
+        </select>
+        <fieldset>
+          <legend>Add a dog</legend>
+          Name: <input type="text"><br>
+          Breed: <input type="select"><br>
+          <input type="submit" name="submit" value="Add dog!">
+        </fieldset>
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>

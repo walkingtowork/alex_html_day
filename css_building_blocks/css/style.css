@@ -1,0 +1,101 @@
+/* demo styles */
+  body {
+    padding-top:20px;
+    font-family:sans-serif;
+    text-align:center;
+    background:#ddd;
+  }
+  h3 {
+    font-size:20px;
+  }
+  .module {
+    width:300px;
+    background:gold;
+    margin:20px auto;
+    padding:30px;
+  }
+  .module div,
+  .module li,
+  .module nav,
+  .module section {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:1px solid #ba0000;
+  }
+  ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+
+/* the good stuff starts here :) */
+
+.dashboard {
+  overflow: hidden;
+}
+
+.dashboard > nav {
+  width: 50px;
+  float: left;
+}
+
+.dashboard > section {
+  width: 250px;
+  float: right;
+}
+
+#tasks {
+  overflow: hidden;
+}
+
+#tasks > section {
+  width: 100px;
+  float: left;
+}
+
+.dashboard > li {
+  width: 80px;
+  float: left;
+  margin-left: 30px;
+}
+
+.dashboard > li:first-child {
+  margin-left: 0;
+}
+
+.photos {
+  overflow: hidden;
+}
+
+.photos > div {
+  width: 100px;
+  float: left;
+}
+
+.photos > .vacation > li {
+  width: 80px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.photos > .vacation {
+  margin-right: -30px;
+  margin-top: -30px;
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

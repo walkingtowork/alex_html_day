@@ -1,0 +1,46 @@
+body {
+  background-color:white;
+  margin: 0 auto;
+
+}
+
+.bchead {
+  background-color: rgb(238, 238, 238);
+  line-height: 35px;
+  min-height: 24px;
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-family: helvetica;
+}
+
+.greytext {
+  font-size: 10px;
+  margin-left: 100px;
+  color: gray;
+  line-height: 50px;
+}
+
+.contents {
+  margin-left: 100px;
+}
+
+.postingtitle {
+  margin-left: 120px;
+}
+
+#postingbody {
+  margin-left: 100px;
+}
+
+footer {
+
+background-color: rgb(238, 238, 238);
+bottom: 0;
+text-align: center;
+}
+
+.clfooter li{
+  display: inline;
+}
+
